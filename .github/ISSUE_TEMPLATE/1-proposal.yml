@@ -71,23 +71,23 @@ body:
       label: Implementation Details
       description: Will be rendered in Markdown, allowing you to utilize its styling.
       value: |
-        Should be written in Markdown and should be a standalone document as much as possible.
-        Links can be used but sparingly.
+        <!-- Should be written in Markdown and should be a standalone document as much as possible.
+        Links can be used but sparingly. -->
 
         ## Budget / Proposal Fund
 
-        It all takes effort and money, explain how you propose to get your proposal completed.
-        Also list the sources you envision this coming from.
+        <!-- It all takes effort and money, explain how you propose to get your proposal completed.
+        Also list the sources you envision this coming from. -->
 
         ## Timeline
         
-        How long would it take to implement? Does it require Core Team contribution to estimation?
+        <!-- How long would it take to implement? Does it require Core Team contribution to estimation? -->
 
         ## Alternatives
 
-        Are they any alternatives to this Resolution. Including implementation, development, or scope?
+        <!-- Are they any alternatives to this Resolution. Including implementation, development, or scope? -->
 
-        ## Implementation Plan
+        ## Contributors
 
-        Is there development and resources set aside to develop and implement the Resolution?
-        IF so list responsible parties here.
+        <!-- Is there development and resources set aside to develop and implement the Resolution?
+        IF so list responsible parties here. -->
