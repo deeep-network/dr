@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community Discussion
+    url: https://github.com/orgs/deeep-network/discussions
+    about: Please ask and answer questions here.
+  - name: Discord Forums
+    url: https://discord.com/channels/1247281918660055223/1251220168206450739
+    about: Alternative to Github dicussions
