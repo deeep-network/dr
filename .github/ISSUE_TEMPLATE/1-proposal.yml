@@ -24,10 +24,10 @@ body:
       - label: I have discussed this Resolution in the [Discord](https://discord.gg/deeep-network)
         required: false
   - type: input
-    id: discord-discussion
+    id: discussion
     attributes:
-      label: Discord Discussion
-      description: Please provide a Message Link to the Discord discussion or thread.
+      label: Discussion
+      description: Please provide a Message Link to the Discord discussion or thread. Or the Github Discussion.
       placeholder: ex. https://discord.com/channels/1247281918660055223/1251215470204424193/1254903609255264271
     validations:
       required: false
