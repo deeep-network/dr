@@ -26,8 +26,8 @@ body:
       required: false
   - type: checkboxes
     attributes:
-      label: Verify Service isn't actively being developed
-      description: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
+      label: "I've verified that:"
       options:
-      - label: Is not actively being developed
+      - label: Service isn't actively being developed
+        description: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
         required: true
