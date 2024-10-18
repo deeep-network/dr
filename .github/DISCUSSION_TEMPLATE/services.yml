@@ -1,0 +1,34 @@
+title: "[New] "
+labels: ["New Service Request"]
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Discord (Github) Handle
+      description: How can we get in touch with you if we need to?
+      placeholder: ex. @anthonyra
+    validations:
+      required: false
+  - type: input
+    id: service-documentation
+    attributes:
+      label: Documentation
+      description: Please provide the documentation for setting up the Service
+      placeholder: ex. https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/
+    validations:
+      required: true
+  - type: input
+    id: discord-discussion
+    attributes:
+      label: Discord Discussion
+      description: If discussed in Discord share message link here
+      placeholder: ex. https://discord.com/channels/1009533970771349554/1011331602174988379/1011359420137095268
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Is there an existing New Service issue for this?
+      description: Please check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
+      options:
+      - label: I have searched the existing issues
+        required: true
