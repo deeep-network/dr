@@ -1,4 +1,3 @@
-title: "[New] "
 labels: ["New Service Request"]
 body:
   - type: input
@@ -27,8 +26,7 @@ body:
       required: false
   - type: checkboxes
     attributes:
-      label: Is there an existing New Service issue for this?
-      description: Please check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
+      label: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+) if work is already in progress
       options:
       - label: I have searched the existing issues
         required: true
