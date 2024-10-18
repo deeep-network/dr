@@ -26,7 +26,7 @@ body:
       required: false
   - type: checkboxes
     attributes:
-      label: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+) if work is already in progress
+      description: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
       options:
-      - label: I have searched the existing issues
+      - label: No work is in progress
         required: true
