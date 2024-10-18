@@ -31,5 +31,3 @@ body:
       options:
       - label: Service isn't actively being developed
         required: true
-      - label: Test
-      required: true
