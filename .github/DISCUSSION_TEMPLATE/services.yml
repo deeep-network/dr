@@ -26,6 +26,7 @@ body:
       required: false
   - type: checkboxes
     attributes:
+      label: Verify no work is in progress
       description: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
       options:
       - label: No work is in progress
