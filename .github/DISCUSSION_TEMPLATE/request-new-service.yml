@@ -26,8 +26,7 @@ body:
       required: false
   - type: checkboxes
     attributes:
-      label: I've verified that the requested Service isn't actively being developed
-      description: Check [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
+      label: Requested Service isn't actively being developed
       options:
-      - label: Verified
+      - label: Verified [here](https://github.com/deeep-network/bedrock/issues?q=is%3Aissue+%5BNew%5D%3A+label%3Aenhancement+)
         required: true
